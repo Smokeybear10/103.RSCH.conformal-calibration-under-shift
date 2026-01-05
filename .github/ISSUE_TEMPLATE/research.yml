@@ -1,0 +1,25 @@
+name: Research extension
+description: Propose a question and an evaluation before adding an experiment.
+title: '[Research] '
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and motivation
+      description: What uncertainty would this experiment resolve? Link relevant prior work.
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Proposed protocol
+      description: Specify datasets, participant splits, baselines, tuning rules, metrics, and expected runtime. Explain how held-out test outcomes stay out of selection.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected deliverable
+      description: What code, table, or figure would make the comparison inspectable? What would remain uncertain?
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+name: Reproduction or bug report
+description: Report a result difference, setup problem, or failing example.
+title: '[Reproduction] '
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Commit and environment
+      description: Include the commit SHA, OS, Python version, and relevant package versions.
+    validations:
+      required: true
+  - type: textarea
+    id: commands
+    attributes:
+      label: Commands or minimal example
+      description: Include the command, dataset, and any changed parameters. Remove private paths and credentials.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed results
+      description: Name the table, metric, or error. Include the relevant output and numerical difference where possible.
+    validations:
+      required: true
