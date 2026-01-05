@@ -1,0 +1,5 @@
+regime,method,repetitions,alpha,calibration_people,easy_calibration_people,hard_calibration_people,easy_windows_per_calibration_person,hard_windows_per_calibration_person,test_people,test_windows_per_person,mean_threshold,mean_equal_person_coverage,mean_easy_person_coverage,mean_hard_person_coverage,mean_p10_person_coverage,mean_fraction_people_below_target,hard_coverage_q05,hard_coverage_q95
+equal_windows,pooled_window,1000,0.1,20,15,5,200,200,80,200,0.5466911290416774,0.9003254999999999,1.0,0.601302,0.5945944999999999,0.25,0.5730000000000001,0.63025
+equal_windows,participant_balanced,1000,0.1,20,15,5,200,200,80,200,0.6381568631978695,0.9450490625,1.0,0.7801962499999999,0.7747830000000001,0.2499875,0.7555000000000001,0.8019999999999999
+size_biased_windows,pooled_window,1000,0.1,20,15,5,400,40,80,200,0.13044841893683942,0.699168,0.9297923333333333,0.007295000000000002,0.0052745000000000005,0.2843625,0.005000000000000001,0.00975
+size_biased_windows,participant_balanced,1000,0.1,20,15,5,400,40,80,200,0.6356487633774734,0.9438218125,1.0,0.77528725,0.7700055,0.2499,0.721,0.8252749999999999
