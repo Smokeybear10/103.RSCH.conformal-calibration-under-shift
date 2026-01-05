@@ -1,0 +1,758 @@
+{
+  "date": "2026-11-05",
+  "experiment_source_commit": "d8a1899e8269f51719303411c202240debadb391",
+  "datasets": {
+    "UCI HAR": {
+      "protocol_identical": true,
+      "source_hash_identical": true,
+      "input_hashes_identical": true,
+      "row_counts_identical": true,
+      "rerun_elapsed_seconds": 151.42,
+      "tables": {
+        "fold_metrics.csv": {
+          "rows": 240,
+          "columns": {
+            "repeat": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "fold": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "seed": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "family": {
+              "identical": true
+            },
+            "method": {
+              "identical": true
+            },
+            "alpha": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "threshold": {
+              "max_absolute_difference": 0.00014919813818914385,
+              "rows_different_above_1e_12": 100,
+              "missingness_identical": true
+            },
+            "selected_logistic": {
+              "identical": true
+            },
+            "n_calibration_people": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "coverage": {
+              "max_absolute_difference": 0.0010272213662043672,
+              "rows_different_above_1e_12": 19,
+              "missingness_identical": true
+            },
+            "mean_set_size": {
+              "max_absolute_difference": 0.09501797637390874,
+              "rows_different_above_1e_12": 29,
+              "missingness_identical": true
+            },
+            "singleton_rate": {
+              "max_absolute_difference": 0.019517205957883907,
+              "rows_different_above_1e_12": 26,
+              "missingness_identical": true
+            },
+            "review_rate": {
+              "max_absolute_difference": 0.019517205957883976,
+              "rows_different_above_1e_12": 26,
+              "missingness_identical": true
+            },
+            "empty_rate": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_singleton": {
+              "max_absolute_difference": 38.0,
+              "rows_different_above_1e_12": 26,
+              "missingness_identical": true
+            },
+            "n_singleton_errors": {
+              "max_absolute_difference": 2.0,
+              "rows_different_above_1e_12": 17,
+              "missingness_identical": true
+            },
+            "singleton_error_rate": {
+              "max_absolute_difference": 0.0017887403502165992,
+              "rows_different_above_1e_12": 27,
+              "missingness_identical": true
+            }
+          }
+        },
+        "subject_metrics.csv": {
+          "rows": 1440,
+          "columns": {
+            "repeat": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "fold": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "seed": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "family": {
+              "identical": true
+            },
+            "method": {
+              "identical": true
+            },
+            "alpha": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "threshold": {
+              "max_absolute_difference": 0.00014919813818914385,
+              "rows_different_above_1e_12": 600,
+              "missingness_identical": true
+            },
+            "selected_logistic": {
+              "identical": true
+            },
+            "n_calibration_people": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "subject": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "coverage": {
+              "max_absolute_difference": 0.009375000000000022,
+              "rows_different_above_1e_12": 54,
+              "missingness_identical": true
+            },
+            "mean_set_size": {
+              "max_absolute_difference": 0.14330218068535805,
+              "rows_different_above_1e_12": 114,
+              "missingness_identical": true
+            },
+            "singleton_rate": {
+              "max_absolute_difference": 0.04626334519572958,
+              "rows_different_above_1e_12": 91,
+              "missingness_identical": true
+            },
+            "review_rate": {
+              "max_absolute_difference": 0.0462633451957295,
+              "rows_different_above_1e_12": 91,
+              "missingness_identical": true
+            },
+            "empty_rate": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_singleton": {
+              "max_absolute_difference": 13.0,
+              "rows_different_above_1e_12": 91,
+              "missingness_identical": true
+            },
+            "n_singleton_errors": {
+              "max_absolute_difference": 3.0,
+              "rows_different_above_1e_12": 53,
+              "missingness_identical": true
+            },
+            "singleton_error_rate": {
+              "max_absolute_difference": 0.0151515151515152,
+              "rows_different_above_1e_12": 82,
+              "missingness_identical": true
+            }
+          }
+        },
+        "repeat_summary.csv": {
+          "rows": 48,
+          "columns": {
+            "repeat": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "family": {
+              "identical": true
+            },
+            "method": {
+              "identical": true
+            },
+            "alpha": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_subjects": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_windows": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "coverage_equal_subject": {
+              "max_absolute_difference": 0.00032676518614460637,
+              "rows_different_above_1e_12": 15,
+              "missingness_identical": true
+            },
+            "coverage_pooled": {
+              "max_absolute_difference": 0.00029129041654518684,
+              "rows_different_above_1e_12": 14,
+              "missingness_identical": true
+            },
+            "coverage_p10_subject": {
+              "max_absolute_difference": 0.005284863945578477,
+              "rows_different_above_1e_12": 6,
+              "missingness_identical": true
+            },
+            "coverage_min_subject": {
+              "max_absolute_difference": 0.009287925696594534,
+              "rows_different_above_1e_12": 9,
+              "missingness_identical": true
+            },
+            "people_below_target": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "fraction_people_below_target": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "mean_set_size_equal_subject": {
+              "max_absolute_difference": 0.032315354682135755,
+              "rows_different_above_1e_12": 21,
+              "missingness_identical": true
+            },
+            "mean_set_size_pooled": {
+              "max_absolute_difference": 0.03252742984755841,
+              "rows_different_above_1e_12": 19,
+              "missingness_identical": true
+            },
+            "singleton_rate_equal_subject": {
+              "max_absolute_difference": 0.004999589760528389,
+              "rows_different_above_1e_12": 19,
+              "missingness_identical": true
+            },
+            "review_rate_equal_subject": {
+              "max_absolute_difference": 0.004999589760528611,
+              "rows_different_above_1e_12": 19,
+              "missingness_identical": true
+            },
+            "singleton_error_rate": {
+              "max_absolute_difference": 0.0004558709115144999,
+              "rows_different_above_1e_12": 19,
+              "missingness_identical": true
+            }
+          }
+        },
+        "cv_scores.csv": {
+          "rows": 135,
+          "columns": {
+            "candidate": {
+              "identical": true
+            },
+            "inner_fold": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "nll": {
+              "max_absolute_difference": 0.007599136279053509,
+              "rows_different_above_1e_12": 126,
+              "missingness_identical": true
+            },
+            "accuracy": {
+              "max_absolute_difference": 0.004341534008683201,
+              "rows_different_above_1e_12": 11,
+              "missingness_identical": true
+            },
+            "repeat": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "fold": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            }
+          }
+        }
+      },
+      "primary_raps_summary": [
+        {
+          "family": "Forest",
+          "method": "participant_raps",
+          "reference": {
+            "coverage_p10_subject": 0.9530999563578977,
+            "review_rate_equal_subject": 0.6810321025499263
+          },
+          "rerun": {
+            "coverage_p10_subject": 0.9530999563578977,
+            "review_rate_equal_subject": 0.6809677212790232
+          }
+        },
+        {
+          "family": "Forest",
+          "method": "window_raps",
+          "reference": {
+            "coverage_p10_subject": 0.9155590638838165,
+            "review_rate_equal_subject": 0.44950710194783317
+          },
+          "rerun": {
+            "coverage_p10_subject": 0.9155590638838165,
+            "review_rate_equal_subject": 0.44950710194783317
+          }
+        },
+        {
+          "family": "Logistic",
+          "method": "participant_raps",
+          "reference": {
+            "coverage_p10_subject": 0.9259043660778475,
+            "review_rate_equal_subject": 0.441845160334329
+          },
+          "rerun": {
+            "coverage_p10_subject": 0.9276659873930403,
+            "review_rate_equal_subject": 0.4418331705895924
+          }
+        },
+        {
+          "family": "Logistic",
+          "method": "window_raps",
+          "reference": {
+            "coverage_p10_subject": 0.8582786539349718,
+            "review_rate_equal_subject": 0.06706308937812587
+          },
+          "rerun": {
+            "coverage_p10_subject": 0.8582786539349718,
+            "review_rate_equal_subject": 0.06761225467691097
+          }
+        }
+      ]
+    },
+    "WISDM": {
+      "protocol_identical": true,
+      "source_hash_identical": true,
+      "input_hashes_identical": true,
+      "row_counts_identical": true,
+      "rerun_elapsed_seconds": 231.8,
+      "tables": {
+        "fold_metrics.csv": {
+          "rows": 192,
+          "columns": {
+            "repeat": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "fold": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "seed": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "family": {
+              "identical": true
+            },
+            "method": {
+              "identical": true
+            },
+            "alpha": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "threshold": {
+              "max_absolute_difference": 0.0004301802561728074,
+              "rows_different_above_1e_12": 96,
+              "missingness_identical": true
+            },
+            "selected_logistic": {
+              "identical": true
+            },
+            "n_calibration_people": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_classes": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "coverage": {
+              "max_absolute_difference": 0.0017379969585052946,
+              "rows_different_above_1e_12": 59,
+              "missingness_identical": true
+            },
+            "mean_set_size": {
+              "max_absolute_difference": 0.03150119487290759,
+              "rows_different_above_1e_12": 87,
+              "missingness_identical": true
+            },
+            "singleton_rate": {
+              "max_absolute_difference": 0.0004344992396263011,
+              "rows_different_above_1e_12": 14,
+              "missingness_identical": true
+            },
+            "review_rate": {
+              "max_absolute_difference": 0.0004344992396263514,
+              "rows_different_above_1e_12": 14,
+              "missingness_identical": true
+            },
+            "empty_rate": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_singleton": {
+              "max_absolute_difference": 2.0,
+              "rows_different_above_1e_12": 14,
+              "missingness_identical": true
+            },
+            "n_singleton_errors": {
+              "max_absolute_difference": 2.0,
+              "rows_different_above_1e_12": 5,
+              "missingness_identical": true
+            },
+            "singleton_error_rate": {
+              "max_absolute_difference": 0.023689516129032306,
+              "rows_different_above_1e_12": 14,
+              "missingness_identical": true
+            }
+          }
+        },
+        "subject_metrics.csv": {
+          "rows": 2112,
+          "columns": {
+            "repeat": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "fold": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "seed": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "family": {
+              "identical": true
+            },
+            "method": {
+              "identical": true
+            },
+            "alpha": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "threshold": {
+              "max_absolute_difference": 0.0004301802561728074,
+              "rows_different_above_1e_12": 1056,
+              "missingness_identical": true
+            },
+            "selected_logistic": {
+              "identical": true
+            },
+            "n_calibration_people": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_classes": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "subject": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "coverage": {
+              "max_absolute_difference": 0.011494252873563204,
+              "rows_different_above_1e_12": 206,
+              "missingness_identical": true
+            },
+            "mean_set_size": {
+              "max_absolute_difference": 0.068965517241379,
+              "rows_different_above_1e_12": 695,
+              "missingness_identical": true
+            },
+            "singleton_rate": {
+              "max_absolute_difference": 0.0033003300330032986,
+              "rows_different_above_1e_12": 18,
+              "missingness_identical": true
+            },
+            "review_rate": {
+              "max_absolute_difference": 0.0033003300330032292,
+              "rows_different_above_1e_12": 18,
+              "missingness_identical": true
+            },
+            "empty_rate": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_singleton": {
+              "max_absolute_difference": 2.0,
+              "rows_different_above_1e_12": 18,
+              "missingness_identical": true
+            },
+            "n_singleton_errors": {
+              "max_absolute_difference": 2.0,
+              "rows_different_above_1e_12": 8,
+              "missingness_identical": true
+            },
+            "singleton_error_rate": {
+              "max_absolute_difference": 0.0833333333333333,
+              "rows_different_above_1e_12": 12,
+              "missingness_identical": false
+            }
+          }
+        },
+        "repeat_summary.csv": {
+          "rows": 48,
+          "columns": {
+            "repeat": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "family": {
+              "identical": true
+            },
+            "method": {
+              "identical": true
+            },
+            "alpha": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_subjects": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n_windows": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "coverage_equal_subject": {
+              "max_absolute_difference": 0.0004425468836826152,
+              "rows_different_above_1e_12": 25,
+              "missingness_identical": true
+            },
+            "coverage_pooled": {
+              "max_absolute_difference": 0.0005326876513317425,
+              "rows_different_above_1e_12": 23,
+              "missingness_identical": true
+            },
+            "coverage_p10_subject": {
+              "max_absolute_difference": 0.0021516294362247113,
+              "rows_different_above_1e_12": 13,
+              "missingness_identical": true
+            },
+            "coverage_min_subject": {
+              "max_absolute_difference": 0.003603603603603567,
+              "rows_different_above_1e_12": 8,
+              "missingness_identical": true
+            },
+            "people_below_target": {
+              "max_absolute_difference": 1.0,
+              "rows_different_above_1e_12": 3,
+              "missingness_identical": true
+            },
+            "fraction_people_below_target": {
+              "max_absolute_difference": 0.022727272727272707,
+              "rows_different_above_1e_12": 3,
+              "missingness_identical": true
+            },
+            "mean_set_size_equal_subject": {
+              "max_absolute_difference": 0.01017123545344134,
+              "rows_different_above_1e_12": 29,
+              "missingness_identical": true
+            },
+            "mean_set_size_pooled": {
+              "max_absolute_difference": 0.009007263922519826,
+              "rows_different_above_1e_12": 29,
+              "missingness_identical": true
+            },
+            "singleton_rate_equal_subject": {
+              "max_absolute_difference": 0.00014029180695850074,
+              "rows_different_above_1e_12": 10,
+              "missingness_identical": true
+            },
+            "review_rate_equal_subject": {
+              "max_absolute_difference": 0.00014029180695862564,
+              "rows_different_above_1e_12": 10,
+              "missingness_identical": true
+            },
+            "singleton_error_rate": {
+              "max_absolute_difference": 0.004504504504504514,
+              "rows_different_above_1e_12": 8,
+              "missingness_identical": true
+            }
+          }
+        },
+        "cv_scores.csv": {
+          "rows": 108,
+          "columns": {
+            "candidate": {
+              "identical": true
+            },
+            "inner_fold": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "n": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "nll": {
+              "max_absolute_difference": 0.030316224848214723,
+              "rows_different_above_1e_12": 108,
+              "missingness_identical": true
+            },
+            "accuracy": {
+              "max_absolute_difference": 0.0018860807242550015,
+              "rows_different_above_1e_12": 57,
+              "missingness_identical": true
+            },
+            "repeat": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            },
+            "fold": {
+              "max_absolute_difference": 0.0,
+              "rows_different_above_1e_12": 0,
+              "missingness_identical": true
+            }
+          }
+        }
+      },
+      "primary_raps_summary": [
+        {
+          "family": "Forest",
+          "method": "participant_raps",
+          "reference": {
+            "coverage_p10_subject": 0.8744579747810165,
+            "review_rate_equal_subject": 0.99964575738827
+          },
+          "rerun": {
+            "coverage_p10_subject": 0.8744579747810165,
+            "review_rate_equal_subject": 0.99964575738827
+          }
+        },
+        {
+          "family": "Forest",
+          "method": "window_raps",
+          "reference": {
+            "coverage_p10_subject": 0.794108949650107,
+            "review_rate_equal_subject": 0.99964575738827
+          },
+          "rerun": {
+            "coverage_p10_subject": 0.794108949650107,
+            "review_rate_equal_subject": 0.99964575738827
+          }
+        },
+        {
+          "family": "Logistic",
+          "method": "participant_raps",
+          "reference": {
+            "coverage_p10_subject": 0.8781476187049729,
+            "review_rate_equal_subject": 1.0
+          },
+          "rerun": {
+            "coverage_p10_subject": 0.8779025206657572,
+            "review_rate_equal_subject": 1.0
+          }
+        },
+        {
+          "family": "Logistic",
+          "method": "window_raps",
+          "reference": {
+            "coverage_p10_subject": 0.8055611912414573,
+            "review_rate_equal_subject": 1.0
+          },
+          "rerun": {
+            "coverage_p10_subject": 0.80526011597264,
+            "review_rate_equal_subject": 1.0
+          }
+        }
+      ]
+    }
+  },
+  "simulation_summary.csv": {
+    "shape_identical": true,
+    "exact_dataframe_equality": true,
+    "max_absolute_numeric_difference": 0.0
+  },
+  "shift_diagnostic.csv": {
+    "shape_identical": true,
+    "exact_dataframe_equality": false,
+    "max_absolute_numeric_difference": 0.01542111506524324
+  }
+}
