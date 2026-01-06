@@ -4,7 +4,7 @@ This study compares window-weighted and participant-balanced conformal calibrati
 
 ## Start locally
 
-Follow the [README setup](README.md#run-it), then run:
+Follow the [README setup](README.md#quick-start), then run:
 
 ```bash
 python -m unittest discover -s tests -v
