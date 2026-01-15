@@ -1,6 +1,6 @@
 # Conformal Calibration Under New-Participant Shift
 
-A notebook and set of experiments comparing pooled window-level conformal calibration with participant-balanced calibration when evaluation is on people the model has not seen during fitting or calibration.
+I compared two ways of calibrating conformal prediction when the test person was never seen during training or calibration.
 
 ## Start Here
 
@@ -25,13 +25,13 @@ Participant-balanced calibration improved the lower tail of held-out-person cove
 | Forest | Window | 91.6% | 45.0% |
 | Forest | Participant-balanced | 95.3% | 68.1% |
 
-The feature-shift plot is only a correlation check. The simulation isolates why pooling windows can overweight people who contribute more data.
+The feature-shift plot is only a correlation check. The toy simulation shows what can happen when a few people contribute most of the windows.
 
 ## WISDM Check
 
 The same setup is run on WISDM's transformed phone-accelerometer windows. The official folder contained six files that were byte-for-byte copies of subject 1610's file, so the code drops those aliases before splitting. The run uses 44 file-level subjects, 18 activities, and 20,650 windows.
 
-WISDM is much harder operationally: the sets are wide and almost every example is reviewed. It is useful as a second dataset check, not as a proposed automatic-decision policy.
+I included WISDM as a second check. The review policy itself is not very practical there because the 18-class sets are wide.
 
 ## Run It
 
