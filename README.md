@@ -7,7 +7,7 @@ Compares two ways of calibrating conformal prediction for people held out from t
 Use Python 3.11 or 3.13. The [notebook](unseen_person_conformal.ipynb) also has saved outputs you can read without installing anything.
 
 ```bash
-git clone https://github.com/Smokeybear10/conformal-calibration-under-shift.git
+git clone https://github.com/Smokeybear10/103.RSCH.conformal-calibration-under-shift.git conformal-calibration-under-shift
 cd conformal-calibration-under-shift
 python -m venv .venv
 source .venv/bin/activate
@@ -52,6 +52,8 @@ python wisdm_replication.py --output work/wisdm
 ```
 
 The first run downloads about 61 MB for UCI HAR and 310 MB for WISDM, verifies archive hashes, and caches the data locally. Compare each new `repeat_summary.csv` with the saved [UCI HAR](results/repeat_summary.csv) and [WISDM](wisdm_results/repeat_summary.csv) tables. Full splits are in the [UCI HAR](results/protocol.json) and [WISDM](wisdm_results/protocol.json) protocols.
+
+Both experiment scripts now save `run_manifest.json` alongside `protocol.json`, recording the Git revision and dirty state, Python and numerical-package versions, operating system, and active BLAS/OpenMP thread settings. This helps compare future runs; it does not resolve the older numerical differences described above.
 
 Checks run without dataset downloads; they do not reproduce the empirical results:
 

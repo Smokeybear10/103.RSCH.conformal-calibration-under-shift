@@ -27,3 +27,9 @@ Most variation occurred in logistic models. Forest 10th-percentile coverage was 
 The differences have not been traced to a specific cause. Matching data and splits does not establish identical numerical execution. The original saved summaries did not capture a complete environment or executed code revision, so this check cannot isolate environment sensitivity from other execution differences. It does not establish a per-participant coverage guarantee.
 
 The [rerun environment](reproduction/2026-11-05-environment.json) and [measured comparisons](reproduction/2026-11-05-comparison.json) record the available evidence. The README table continues to report the original reference run.
+
+## Provenance for future runs
+
+`run_experiment.py` and `wisdm_replication.py` now write `run_manifest.json` beside each run's `protocol.json`. Git commit and dirty state are captured before output files are written; dirty includes tracked changes and untracked, non-ignored files. A dirty flag does not preserve the changes themselves, so use a clean, saved commit when sharing a reproducible run.
+
+The manifest records Python, the six numerical/runtime package versions, operating system and architecture, and loaded BLAS/OpenMP libraries while the experiment's two-thread limit is active. It omits hostnames, usernames, filesystem paths, remote URLs, and environment variables. Unavailable metadata is `null`; inability to save the manifest emits a warning and does not stop the experiment. This snapshot is taken before model fitting and is not proof that a run completed. It adds evidence for future comparisons without reconstructing the original environment or explaining the existing discrepancies.

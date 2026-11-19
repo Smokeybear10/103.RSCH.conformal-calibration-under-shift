@@ -38,6 +38,7 @@ from sklearn.preprocessing import StandardScaler
 from threadpoolctl import threadpool_limits
 
 import conformal_core as conformal
+from run_manifest import capture_git_state, write_run_manifest
 
 
 HERE = Path(__file__).resolve().parent
@@ -641,6 +642,7 @@ def write_report(
 
 
 def run_experiment(data_dir: Path, output_dir: Path) -> dict:
+    git_state = capture_git_state(HERE)
     helper_tests()
     started = datetime.now(timezone.utc).isoformat()
     started_clock = time.monotonic()
@@ -700,6 +702,7 @@ def run_experiment(data_dir: Path, output_dir: Path) -> dict:
     cv_frames: list[pd.DataFrame] = []
 
     with threadpool_limits(limits=2):
+        write_run_manifest(output_dir, git_state, started, thread_limit=2)
         for split in splits:
             repeat, fold, seed = split["repeat"], split["fold"], split["seed"]
             print(f"repeat {repeat}/{len(REPEAT_SEEDS)}, fold {fold}/4", flush=True)

@@ -21,7 +21,7 @@ For a full replication, use the [reproduction commands](README.md#reproduce-the-
 - **Statistical checks:** contribute a small, independently worked example for a threshold, tie, or participant-weighting edge case. Explain what should happen and why.
 - **Research extensions:** discuss the question and evaluation protocol in an issue before adding a dataset, model, or calibration rule. Include the expected runtime and data source.
 
-See the [open issues](https://github.com/Smokeybear10/conformal-calibration-under-shift/issues) for specific tasks. Check for an existing issue or pull request before starting the same work.
+See the [open issues](https://github.com/Smokeybear10/103.RSCH.conformal-calibration-under-shift/issues) for specific tasks. Check for an existing issue or pull request before starting the same work.
 
 ## Preserve the experimental boundaries
 
